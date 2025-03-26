@@ -257,9 +257,9 @@ function simulateBusMovement() {
 }
 
 document.addEventListener('DOMContentLoaded', () => {
-    if(window.location.pathname.endsWith('/')){
-        window.location.href = 'login.html'
-    }
+    // if(window.location.pathname.endsWith('/')){
+    //     window.location.href = 'login.html'
+    // }
     // Check for driver data on index.html load
     if (window.location.pathname.endsWith('index.html')) {
         const driverData = JSON.parse(sessionStorage.getItem('driverData'));
